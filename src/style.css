@@ -703,11 +703,11 @@ picture {
 .nav-list li a:hover{
   color: var(--clr-neutral-200);
 }
-.btn:hover{
-  background: var(--clr-primary-200);
+.btn:hover[data-type=inverted]{
+  background: var(--clr-primary-100);
 }
 .btn a[data-type=inverted]:hover{
-  background: var(--clr-primary-100);
+
   color: white;
 }
 .manage-grids:hover{
