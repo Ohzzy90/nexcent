@@ -707,7 +707,7 @@ picture {
   background: var(--clr-primary-200);
 }
 .btn a[data-type=inverted]:hover{
-  background: var(--clr-primary-200);
+  background: var(--clr-primary-100);
   color: white;
 }
 .manage-grids:hover{
@@ -1108,6 +1108,10 @@ input::placeholder {
 @media (min-width:1440px) {
   footer{
     padding: 54px 200px ;
+  }
+  .nav{
+    width: 65%;
+    justify-content: space-between;
   }
 
 }
