@@ -1110,8 +1110,11 @@ input::placeholder {
     padding: 54px 200px ;
   }
   .nav{
-    width: 65%;
+    width: 70%;
     justify-content: space-between;
+  }
+  .nav-list{
+    gap: 40px;
   }
 
 }
