@@ -736,7 +736,7 @@ picture {
     }
     .nav-items{
       gap: var(--sz-800);
-      margin-top: 8.5rem;
+      margin-top: 7.5rem;
     }
     .nav-list{
       gap: 2.5rem;
