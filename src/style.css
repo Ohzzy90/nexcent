@@ -878,13 +878,14 @@ input::placeholder {
 .nav-panel{
   width: 100%;
 }
-.w-0{
-  width: 46px;
-}
+
 @media (min-width:50em) {
   .nav-open, .nav-close{
     display: none;
   }
+  .w-0{
+  width: 46px;
+}
   .nav-panel{
     align-items: center;  }
   .nav-items{
