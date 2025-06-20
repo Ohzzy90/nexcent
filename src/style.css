@@ -866,15 +866,39 @@ flex-direction: row;
 footer{
   padding: 40px 0;
 }
-.email-field{
+.stay{
+  margin-bottom: 15px;
+}
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.email-field {
+  padding-right: 2.5rem 2.5rem;
   border-radius: 8px;
   border: none;
-  box-shadow: 0 0 10px 2px rgb(41, 40, 40, 0.3);
+  box-shadow: 0 0 10px 2px rgba(41, 40, 40, 0.3);
+  color: var(--clr-neutral-600);
+  
 }
+
+.email-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: var(--clr-neutral-600);
+  font-size: 1rem;
+}
+
+
+
 input::placeholder {
   color: var(--clr-neutral-600);
   opacity: 0.5;
 }
+
 .fs-secondary-heading, .fs-primary-heading{
   line-height: 1.1;
 }
@@ -980,6 +1004,18 @@ input::placeholder {
  }
  .icon-numero h1, .icon-numero p{
   text-align: left;
+ }
+  .copyright{
+    flex-direction: row;
+    gap: 25px;
+    padding: 0 1rem;
+  }
+  .secondary-nav{
+    flex-direction: row;
+    gap: 40px;
+  }
+ .secondary-nav{
+  width: 80%;
  }
 
 
