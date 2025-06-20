@@ -1160,7 +1160,7 @@ input::placeholder {
 }
 @media (min-width:1600px) {
   .nav{
-    width: 68%;
+    width: 65%;
     justify-content: space-between;
   }
   
