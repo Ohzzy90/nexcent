@@ -722,7 +722,7 @@ picture {
 .socials-list li i:hover{
   color: var(--clr-neutral-500);
 }
-@media screen and (max-width: 50em){
+@media screen and (max-width: 965px){
     .nav{
         position: fixed;
         top: 0;
@@ -906,7 +906,7 @@ input::placeholder {
   width: 100%;
 }
 
-@media (min-width:50em) {
+@media (min-width:965px) {
   .nav-open, .nav-close{
     display: none;
   }
@@ -1001,6 +1001,10 @@ input::placeholder {
   margin: 0;
   text-align: left;
   
+ }
+ .icon-container h2, .icon-container p{
+  width: 0%;
+  margin: 0;
  }
  .icon-numero h1, .icon-numero p{
   text-align: left;
@@ -1160,7 +1164,13 @@ input::placeholder {
 }
 @media (min-width:1600px) {
   .nav{
-    width: 65%;
+    width: 68%;
+    justify-content: space-between;
+  }
+  
+@media (min-width:2100px) {
+  .nav{
+    width: 62%;
     justify-content: space-between;
   }
   
