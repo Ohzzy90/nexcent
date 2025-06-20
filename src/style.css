@@ -875,7 +875,12 @@ input::placeholder {
 .fs-secondary-heading, .fs-primary-heading{
   line-height: 1.1;
 }
-
+.nav-panel{
+  width: 100%;
+}
+.w-0{
+  width: 46px;
+}
 @media (min-width:50em) {
   .nav-open, .nav-close{
     display: none;
@@ -954,6 +959,23 @@ input::placeholder {
  }
   .unseen-text p{
   width: 90%;
+ }
+ .members-container{
+   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+ }
+ .icon-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 0;
+  text-align: left;
+  
+ }
+ .icon-numero h1, .icon-numero p{
+  text-align: left;
  }
 
 
@@ -1087,4 +1109,5 @@ input::placeholder {
   footer{
     padding: 54px 200px ;
   }
+
 }
