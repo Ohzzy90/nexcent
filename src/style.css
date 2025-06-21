@@ -736,7 +736,7 @@ picture {
     }
     .nav-items{
       gap: var(--sz-800);
-      margin-top: 7.5rem;
+      margin-top: 5.5rem;
     }
     .nav-list{
       gap: 2.5rem;
@@ -767,8 +767,12 @@ picture {
   .header h1, .supicit h1{
     font-size: var(--fs-800);
   }
-
-  
+  .unseen-text h2, .helping-text h2, .manage-text h3{
+    font-size: var(--fs-500);
+  }
+  body p{
+    font-size: var(--fs-100);
+  }  
 
 
 }
