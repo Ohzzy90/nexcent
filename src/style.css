@@ -767,12 +767,6 @@ picture {
   .header h1, .supicit h1{
     font-size: var(--fs-800);
   }
-  .unseen-text h2, .helping-text h2, .manage-text h3{
-    font-size: var(--fs-500);
-  }
-  body p{
-    font-size: var(--fs-100);
-  }
 
 
 }
