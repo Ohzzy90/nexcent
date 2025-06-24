@@ -732,6 +732,7 @@ picture {
         padding: 1.5rem 0;
         z-index: 999;
         transition: .5s;
+        overflow-y: auto;
         
     }
     .nav-items{
