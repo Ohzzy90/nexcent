@@ -733,7 +733,6 @@ picture {
         z-index: 999;
         transition: .5s;
         overflow-y: auto;
-        background-color: #ffffff;
         
     }
     .nav-items{
