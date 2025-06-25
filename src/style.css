@@ -705,6 +705,7 @@ picture {
 }
 .btn:hover[data-type=inverted]{
   background: var(--clr-primary-100);
+  color: var(--clr-neutral-600);
 }
 .btn a[data-type=inverted]:hover{
 
@@ -733,6 +734,7 @@ picture {
         z-index: 999;
         transition: .5s;
         overflow-y: auto;
+        background-color: #ffffff;
         
     }
     .nav-items{
@@ -864,6 +866,7 @@ flex-direction: row;
 }
 footer{
   padding: 40px 0;
+  position: relative;
 }
 .stay{
   margin-bottom: 15px;
